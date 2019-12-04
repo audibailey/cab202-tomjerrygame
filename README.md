@@ -4,15 +4,18 @@ A game based off Tom and Jerry for the CAB202 unit at QUT. In this assignment, I
 
 ## Issues with the code
 
-If I recall correctly the only issue I remember is that diagonal collisions didn't work well (I rectified this in the next assessment).
+If I recall correctly, the only issue is that diagonal collisions didn't work well (I rectified this in the next assessment).
 
 ## Installation
 
 Clone it and go into it
 
 `cd ZDK`
+
 `make`
+
 `cd ..`
+
 `gcc TomJerryGame.c -o game -std=gnu99 -Wall -Werror -IZDK -LZDK -lzdk -lncurses`
 
 ## Usage
